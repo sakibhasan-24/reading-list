@@ -1,11 +1,22 @@
+import Header from "./components/Header";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-green-300 bg-purple-500 p-4 text-center">
-        remember reading time
-      </h1>
+      <Header />
     </>
   );
 }
 
 export default App;
+
+/* 
+"id": 6,
+    "contentsName": "Video Tutorial",
+    "image": "video-tutorial.jpg",
+    "title": "Learn Web Development in 30 Minutes",
+    "authorName": "David Lee",
+    "authorImg": "david-lee.jpg",
+    "readingTime": 0,
+    "hashtag": ["webdev", "tutorial"]
+ */

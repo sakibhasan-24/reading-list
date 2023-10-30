@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "contentsName": "NaN vs Undefined",
+    "image": "https://www.scaler.com/topics/images/null-and-undefined-in-javascript_thumbnail.webp",
+    "title": "Not A number is a number!are you kidding",
+    "authorName": "js",
+    "authorImg": "https://cdn-icons-png.flaticon.com/512/1995/1995562.png",
+    "readingTime": 10,
+    "hashtag": ["technology", "programming"]
+  },
+  {
+    "id": 2,
+    "contentsName": "Make Happy Others",
+    "image": "https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVjaXBlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000",
+    "title": "easy pasta or delicious steak",
+    "authorName": "Gordon ramsey",
+    "authorImg": "https://ew.com/thmb/UH5Pky8-bPW0xyINGGx9_IP5qqU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gordon-ramsay-hells-kitchen-02-2000-5ba7b54922864ca9b566bb5f4f0b9ace.jpg",
+    "readingTime": 5,
+    "hashtag": ["food", "cooking"]
+  },
+  {
+    "id": 3,
+    "contentsName": "Podcast Episode",
+    "image": "https://rachelcorbett.com.au/wp-content/uploads/2018/07/How-to-design-a-great-podcast-logo.jpg",
+    "title": "How to stop you press skip button",
+    "authorName": "Emily Johnson",
+    "authorImg": "https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
+    "readingTime": 0,
+    "hashtag": ["effective", "attentive"]
+  },
+  {
+    "id": 4,
+    "contentsName": "Product Review",
+    "image": "https://specials-images.forbesimg.com/imageserve/6321aca5df0a9fa9eee9950b/IMG-2758/960x0.jpg?cropX1=63&cropX2=1519&cropY1=104&cropY2=1074",
+    "title": "Why should you buy 14 pro",
+    "authorName": "Mark Wilson",
+    "authorImg": "https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
+    "readingTime": 7,
+    "hashtag": ["technology", "reviews"]
+  },
+  {
+    "id": 5,
+    "contentsName": "Travel Blog",
+    "image": "https://www.theprofessionalvagabond.com/wp-content/uploads/2016/05/My-50-favourite-travel-blogs-1.jpg",
+    "title": "Adventures in the Amazon Rainforest",
+    "authorName": "Sarah Brown",
+    "authorImg": " https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
+    "readingTime": 15,
+    "hashtag": ["travel", "adventure"]
+  },
+  {
+    "id": 5,
+    "contentsName": "Travel Blog",
+    "image": "https://www.theprofessionalvagabond.com/wp-content/uploads/2016/05/My-50-favourite-travel-blogs-1.jpg",
+    "title": "Adventures in the Amazon Rainforest",
+    "authorName": "Sarah Brown",
+    "authorImg": " https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
+    "readingTime": 15,
+    "hashtag": ["travel", "adventure"]
+  }
+]
