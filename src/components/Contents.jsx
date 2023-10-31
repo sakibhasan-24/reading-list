@@ -5,6 +5,11 @@ import Bookmarks from "./Bookmarks";
 
 export default function Contents() {
   const [contents, setContents] = useState([]);
+  const [bookMarksContent, setBookMarksContents] = useState([]);
+  const handleBookMarks = (topic) => {
+    console.log(topic);
+    setBookMarksContents([...bookMarksContent, topic]);
+  };
 
   useEffect(() => {
     fetch("contents.json")
@@ -12,13 +17,17 @@ export default function Contents() {
       .then((data) => setContents(data));
   }, []);
   return (
-    <main className="w-3/4 mx-4 my-12 flex ">
+    <main className=" mx-4 my-12  flex gap-6">
       <section className="w-3/4">
         {contents.map((content) => (
-          <Content content={content} />
+          <Content
+            key={content.id}
+            content={content}
+            handleBookMarks={handleBookMarks}
+          />
         ))}
       </section>
-      <Bookmarks />
+      <Bookmarks bookMarksContent={bookMarksContent} />
     </main>
   );
 }

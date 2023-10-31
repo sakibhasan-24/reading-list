@@ -1,18 +1,17 @@
 import Author from "./Author";
 import Hashtag from "./Hashtag";
 
-export default function Content({ content }) {
-  console.log(content);
+export default function Content({ content, handleBookMarks }) {
   return (
     <div className="my-3 border-2">
       <div className=" w-full">
         <img
-          className="w-full rounded-md p-2 h-[280px]"
+          className="w-full rounded-md p-2 h-[350px]"
           src={content.image}
           alt=""
         />
       </div>
-      <Author content={content} />
+      <Author handleBookMarks={handleBookMarks} content={content} />
       <div>
         <h1 className="text-4xl text-center font-extrabold text-gray-600">
           {content.contentsName}

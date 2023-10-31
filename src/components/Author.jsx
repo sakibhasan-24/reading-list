@@ -1,11 +1,11 @@
-export default function Author({ content }) {
+export default function Author({ content, handleBookMarks }) {
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center  gap-10 ml-2 my-3">
         <img
           className="w-[80px] h-[80px] rounded-full border-2 border-sky-700"
           src={content.authorImg}
-          alt=""
+          alt="image"
         />
         <h1 className="text-xl text-gray-500 ">{content.authorName}</h1>
       </div>
@@ -17,6 +17,7 @@ export default function Author({ content }) {
           min to read
         </p>
         <img
+          onClick={() => handleBookMarks(content)}
           className="w-[30px] mr-4 cursor-pointer"
           src="https://static.thenounproject.com/png/3460469-200.png"
           alt="bookmarks"

@@ -26,7 +26,7 @@
     "title": "How to stop you press skip button",
     "authorName": "Emily Johnson",
     "authorImg": "https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
-    "readingTime": 0,
+    "readingTime": 9,
     "hashtag": ["effective", "attentive"]
   },
   {
@@ -50,13 +50,13 @@
     "hashtag": ["travel", "adventure"]
   },
   {
-    "id": 5,
-    "contentsName": "Travel Blog",
-    "image": "https://www.theprofessionalvagabond.com/wp-content/uploads/2016/05/My-50-favourite-travel-blogs-1.jpg",
-    "title": "Adventures in the Amazon Rainforest",
-    "authorName": "Sarah Brown",
-    "authorImg": " https://cdn-icons-png.flaticon.com/512/3231/3231499.png",
-    "readingTime": 15,
-    "hashtag": ["travel", "adventure"]
+    "id": 6,
+    "contentsName": "Reverse Swing",
+    "image": "https://static.wixstatic.com/media/ae938a_7c85e9ac633a43ad9660cade1798edda~mv2.jpg/v1/fill/w_639,h_643,al_c,q_90,enc_auto/ReverseSwing.jpg",
+    "title": "Before Learning this technique you will called it ball tempering",
+    "authorName": "Ben stokes",
+    "authorImg": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KcTeU3K6p20j-gELiHL6DmGuPWY0s3jYTw&usqp=CAU",
+    "readingTime": 25,
+    "hashtag": ["Balling", "cricket"]
   }
 ]
