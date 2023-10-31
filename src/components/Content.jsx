@@ -1,4 +1,5 @@
 import Author from "./Author";
+import Hashtag from "./Hashtag";
 
 export default function Content({ content }) {
   console.log(content);
@@ -16,8 +17,12 @@ export default function Content({ content }) {
         <h1 className="text-4xl text-center font-extrabold text-gray-600">
           {content.contentsName}
         </h1>
-        <p className="text-2xl text-green-900 font-mono text-center">
+        <p className="my-4  text-2xl text-green-900 font-mono text-center">
           {content.title}
+        </p>
+        <Hashtag hashtag={content.hashtag} />
+        <p className="text-center font-xl font-extrabold text-green-800 cursor-pointer">
+          Mark As Read
         </p>
       </div>
     </div>
