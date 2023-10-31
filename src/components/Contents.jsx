@@ -6,11 +6,25 @@ import Bookmarks from "./Bookmarks";
 export default function Contents() {
   const [contents, setContents] = useState([]);
   const [bookMarksContent, setBookMarksContents] = useState([]);
+  const [readTime, setReadTime] = useState(0);
   const handleBookMarks = (topic) => {
     console.log(topic);
     setBookMarksContents([...bookMarksContent, topic]);
   };
 
+  const handleMarkAsRead = (newReadTime) => {
+    if (bookMarksContent.length === 0) {
+      alert("no topic added");
+      setReadTime(0);
+      return;
+    }
+    // console.log(readTime.readingTime);
+    setReadTime(readTime + newReadTime.readingTime);
+    const newBookMarked = bookMarksContent.filter(
+      (read) => read.id !== newReadTime.id
+    );
+    setBookMarksContents(newBookMarked);
+  };
   useEffect(() => {
     fetch("contents.json")
       .then((res) => res.json())
@@ -24,10 +38,11 @@ export default function Contents() {
             key={content.id}
             content={content}
             handleBookMarks={handleBookMarks}
+            handleMarkAsRead={handleMarkAsRead}
           />
         ))}
       </section>
-      <Bookmarks bookMarksContent={bookMarksContent} />
+      <Bookmarks bookMarksContent={bookMarksContent} readTime={readTime} />
     </main>
   );
 }

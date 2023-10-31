@@ -1,7 +1,11 @@
 import Author from "./Author";
 import Hashtag from "./Hashtag";
 
-export default function Content({ content, handleBookMarks }) {
+export default function Content({
+  content,
+  handleBookMarks,
+  handleMarkAsRead,
+}) {
   return (
     <div className="my-3 border-2">
       <div className=" w-full">
@@ -20,7 +24,10 @@ export default function Content({ content, handleBookMarks }) {
           {content.title}
         </p>
         <Hashtag hashtag={content.hashtag} />
-        <p className="text-center font-xl font-extrabold text-green-800 cursor-pointer">
+        <p
+          onClick={() => handleMarkAsRead(content)}
+          className="text-center font-xl font-extrabold text-green-800 cursor-pointer"
+        >
           Mark As Read
         </p>
       </div>
