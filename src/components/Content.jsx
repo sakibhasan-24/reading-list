@@ -12,7 +12,7 @@ export default function Content({
         <img
           className="w-full rounded-md p-2 h-[350px]"
           src={content.image}
-          alt=""
+          alt="image"
         />
       </div>
       <Author handleBookMarks={handleBookMarks} content={content} />

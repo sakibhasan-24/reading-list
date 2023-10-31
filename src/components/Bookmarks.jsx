@@ -3,7 +3,7 @@ import Bookmark from "./Bookmark";
 export default function Bookmarks({ bookMarksContent, readTime }) {
   //   console.log(bookMarksContent);
   return (
-    <div className=" bg-green-300 p-5 w-[400px]">
+    <div className=" bg-green-300 m-2 rounded-3xl p-6 md:p-5 md:w-[400px]">
       <h1 className="text-center text-2xl font-bold">
         total reading Time : {readTime} Min
       </h1>

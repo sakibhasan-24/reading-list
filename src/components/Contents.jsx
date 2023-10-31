@@ -31,8 +31,8 @@ export default function Contents() {
       .then((data) => setContents(data));
   }, []);
   return (
-    <main className=" mx-4 my-12  flex gap-6">
-      <section className="w-3/4">
+    <main className="md:mx-4  my-12 flex  flex-col  md:flex-row md:gap-6">
+      <section className="w-full mx-auto p-1 order-last  md:order-first lg:order-first md:w-3/4">
         {contents.map((content) => (
           <Content
             key={content.id}

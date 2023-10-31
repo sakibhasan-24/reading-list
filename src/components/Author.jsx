@@ -1,19 +1,21 @@
 export default function Author({ content, handleBookMarks }) {
   return (
     <div className="flex items-center justify-between">
-      <div className="flex items-center  gap-10 ml-2 my-3">
+      <div className="flex items-center  gap-4 ml-2 my-3">
         <img
-          className="w-[80px] h-[80px] rounded-full border-2 border-sky-700"
+          className="w-[80px] h-[80px] rounded-full p-1 border-2 border-sky-700"
           src={content.authorImg}
           alt="image"
         />
-        <h1 className="text-xl text-gray-500 ">{content.authorName}</h1>
+        <h1 className="text-2xl border-b-2  text-gray-500 ">
+          {content.authorName}
+        </h1>
       </div>
       <div className="flex justify-center ">
         <p className="text-2xl">
           <span className="text-3xl font-bold  text-blue-950">
             {content.readingTime}
-          </span>
+          </span>{" "}
           min to read
         </p>
         <img
